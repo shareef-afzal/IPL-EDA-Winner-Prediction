@@ -89,16 +89,16 @@ The dataset used in this project includes:
 
 Random Forest:
   Accuracy: 89.93%
-  Classification Report: High precision and recall across all classes, indicating strong performance.
+Classification Report: High precision and recall across all classes, indicating strong performance.
 XGBoost:
   Accuracy: 89.97%
-  Classification Report: Comparable to Random Forest, with slightly better precision for some classes.
+Classification Report: Comparable to Random Forest, with slightly better precision for some classes.
 Neural Network:
   Accuracy: 71.33%
-  Classification Report: Lower performance compared to tree-based models, likely due to the complexity of the data.
+Classification Report: Lower performance compared to tree-based models, likely due to the complexity of the data.
 Ensemble Model:
   Accuracy: 90.01%
-  Classification Report: The ensemble model outperformed individual models, achieving the highest accuracy and balanced precision/recall across all classes.
+Classification Report: The ensemble model outperformed individual models, achieving the highest accuracy and balanced precision/recall across all classes.
 Predicted Winner of 2025 IPL Season
 The ensemble model predicted **Kolkata Knight Riders** as the most likely winner of the 2025 IPL season.
 
