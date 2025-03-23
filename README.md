@@ -68,12 +68,13 @@ The dataset used in this project includes:
    Target Encoding: The target variable (`winner`) was encoded using LabelEncoder to convert team names into numerical labels.
 
 2. Model Development
+   
    Random Forest: A Random Forest classifier with 100 estimators was trained on the training data.
    XGBoost: An XGBoost classifier with 100 estimators was trained on the training data.
    Neural Network: A Multi-Layer Perceptron (MLP) classifier was optimized using RandomizedSearchCV to find the best hyperparameters.
    Ensemble Model: A VotingClassifier was created by combining the Random Forest, XGBoost, and optimized Neural Network models. The ensemble used soft voting to predict the winner.
 
-3. Model Evaluation
+4. Model Evaluation
 - The models were evaluated on a test set (20% of the data) using accuracy, precision, recall, and F1-score.
 - The ensemble model's performance was compared with individual models to determine the best-performing approach.
 
