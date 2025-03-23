@@ -87,7 +87,6 @@ The dataset used in this project includes:
 
 📈 Results
 
-Model Performance
 Random Forest:
   - Accuracy: 89.93%
   - Classification Report: High precision and recall across all classes, indicating strong performance.
